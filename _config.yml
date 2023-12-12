@@ -18,7 +18,7 @@
 # When setting this field to "incubator", please uncomment the
 # incubator_lesson_site, incubator_pre_survey, and incubator_post_survey
 # lines further down this file and add the URL to the relevant lesson site.
-carpentry: "incubator"
+carpentry: "swc"
 
 # This option is currently only needed for
 # Data Carpentry and Software Carpentry workshops.
@@ -33,7 +33,7 @@ carpentry: "incubator"
 # dc-image:         for Data Carpentry Image Processing
 # swc-inflammation: for Software Carpentry based on the inflammation dataset
 # swc-gapminder:    for Software Carpentry based on the Gapminder dataset
-curriculum: ""
+curriculum: "swc-gapminder"
 
 # If there is both an R and python official version of a curriculum
 # (as listed on https://software-carpentry.org/lessons/ and
@@ -45,7 +45,7 @@ flavor: "python"
 
 # If the workshop will be a lesson pilot (for a new official lesson or
 # a lesson in The Carpentries Incubator), set pilot to "true"
-pilot: true
+pilot: false
 
 # Overall title for the Workshop.
 # This variable is used to (optionally) add a title in the "jumbotron"
@@ -60,13 +60,13 @@ title: "Software Carpentry Workshop"
 # in The Carpentries Incubator).
 #
 # For an Incubator workshop, uncomment the line below and add the URL of the lesson site.
-  incubator_lesson_site: "https://carpentries-incubator.github.io/python-novice-programming-gapminder/"
+  #incubator_lesson_site: "https://carpentries-incubator.github.io/python-novice-programming-gapminder/"
 #
 # For an Incubator workshop, uncomment the line below and add the URL of your pre-workshop survey
-  incubator_pre_survey: "put the URL of your pre-workshop survey here"
+ #incubator_pre_survey: "put the URL of your pre-workshop survey here"
 #
 # For an Incubator workshop, uncomment the line below and add the URL of your post-workshop survey
-  incubator_post_survey: "put the URL of your post-workshop survey here"
+  #incubator_post_survey: "put the URL of your post-workshop survey here"
 #
 #------------------------------------------------------------
 
